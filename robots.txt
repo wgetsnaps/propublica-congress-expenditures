@@ -1,0 +1,17 @@
+User-Agent: *
+Crawl-Delay: 4
+Disallow: /checkup/providers/search*
+Disallow: /nursing-homes/findings/search*
+Disallow: /docdollars/search*
+Disallow: /treatment/doctors/search*
+Disallow: /nonprofits/search*
+Disallow: /itemizer/filing*
+Disallow: /electionbot/search*
+
+# Sends bad Accept header that blows up rails
+# http://www.seokicks.de/robot.html
+User-Agent: SEOkicks-Robot
+Disallow: /
+User-Agent: seokicks
+Disallow: /
+

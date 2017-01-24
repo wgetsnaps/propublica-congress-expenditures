@@ -1,0 +1,130 @@
+--2017-01-24 05:34:09--  https://projects.propublica.org/represent/expenditures
+Resolving projects.propublica.org... 151.101.25.63
+Connecting to projects.propublica.org|151.101.25.63|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 20477 (20K) [text/html]
+Saving to: ‘represent/expenditures.html’
+
+     0K .......... .........                                  100%  889K=0.02s
+
+2017-01-24 05:34:10 (889 KB/s) - ‘represent/expenditures.html’ saved [20477/20477]
+
+Loading robots.txt; please ignore errors.
+--2017-01-24 05:34:10--  https://projects.propublica.org/robots.txt
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 420 [text/plain]
+Saving to: ‘robots.txt’
+
+     0K                                                       100% 57.2M=0s
+
+2017-01-24 05:34:10 (57.2 MB/s) - ‘robots.txt’ saved [420/420]
+
+--2017-01-24 05:34:10--  https://projects.propublica.org/expenditures/index
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 404 Not Found
+2017-01-24 05:34:10 ERROR 404: Not Found.
+
+--2017-01-24 05:34:10--  https://projects.propublica.org/represent
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://projects.propublica.org/represent/ [following]
+--2017-01-24 05:34:10--  https://projects.propublica.org/represent/
+Connecting to projects.propublica.org|151.101.25.63|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 124022 (121K) [text/html]
+Saving to: ‘represent.1.html’
+
+     0K .......... .......... .......... .......... .......... 41% 1.12M 0s
+    50K .......... .......... .......... .......... .......... 82% 2.11M 0s
+   100K .......... .......... .                               100% 3.40M=0.07s
+
+2017-01-24 05:34:11 (1.63 MB/s) - ‘represent.1.html’ saved [124022/124022]
+
+--2017-01-24 05:34:11--  https://projects.propublica.org/represent/members/search?q=hakeem%20jeffries
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 302 Found
+Location: http://projects.propublica.org/represent/members/J000294-hakeem-jeffries [following]
+--2017-01-24 05:34:11--  http://projects.propublica.org/represent/members/J000294-hakeem-jeffries
+Connecting to projects.propublica.org|151.101.25.63|:80... connected.
+HTTP request sent, awaiting response... 301 Moved Permanently
+Location: https://projects.propublica.org/represent/members/J000294-hakeem-jeffries [following]
+--2017-01-24 05:34:11--  https://projects.propublica.org/represent/members/J000294-hakeem-jeffries
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 17859 (17K) [text/html]
+Saving to: ‘represent/members/search?q=hakeem%20jeffries.html’
+
+     0K .......... .......                                    100% 1.31M=0.01s
+
+2017-01-24 05:34:12 (1.31 MB/s) - ‘represent/members/search?q=hakeem%20jeffries.html’ saved [17859/17859]
+
+--2017-01-24 05:34:12--  https://projects.propublica.org/represent/members/115/house
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 336831 (329K) [text/html]
+Saving to: ‘represent/members/115/house.html’
+
+     0K .......... .......... .......... .......... .......... 15% 1.01M 0s
+    50K .......... .......... .......... .......... .......... 30% 2.29M 0s
+   100K .......... .......... .......... .......... .......... 45% 2.23M 0s
+   150K .......... .......... .......... .......... .......... 60% 2.31M 0s
+   200K .......... .......... .......... .......... .......... 76% 2.34M 0s
+   250K .......... .......... .......... .......... .......... 91% 2.62M 0s
+   300K .......... .......... ........                        100% 1.67M=0.2s
+
+2017-01-24 05:34:12 (1.90 MB/s) - ‘represent/members/115/house.html’ saved [336831/336831]
+
+--2017-01-24 05:34:12--  https://projects.propublica.org/represent/members/115/senate
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 85412 (83K) [text/html]
+Saving to: ‘represent/members/115/senate.html’
+
+     0K .......... .......... .......... .......... .......... 59% 2.49M 0s
+    50K .......... .......... .......... ...                  100% 6.53M=0.02s
+
+2017-01-24 05:34:13 (3.31 MB/s) - ‘represent/members/115/senate.html’ saved [85412/85412]
+
+--2017-01-24 05:34:13--  https://projects.propublica.org/represent/bills/search?q=Planned+Parenthood
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12635 (12K) [text/html]
+Saving to: ‘represent/bills/search?q=Planned+Parenthood.html’
+
+     0K .......... ..                                         100% 6.14M=0.002s
+
+2017-01-24 05:34:13 (6.14 MB/s) - ‘represent/bills/search?q=Planned+Parenthood.html’ saved [12635/12635]
+
+--2017-01-24 05:34:13--  https://projects.propublica.org/represent/bills/search?q=trade
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 12068 (12K) [text/html]
+Saving to: ‘represent/bills/search?q=trade.html’
+
+     0K .......... .                                          100% 3.81M=0.003s
+
+2017-01-24 05:34:13 (3.81 MB/s) - ‘represent/bills/search?q=trade.html’ saved [12068/12068]
+
+--2017-01-24 05:34:13--  https://projects.propublica.org/represent/bills/search?q=obamacare+repeal
+Reusing existing connection to projects.propublica.org:443.
+HTTP request sent, awaiting response... 200 OK
+Length: 11698 (11K) [text/html]
+Saving to: ‘represent/bills/search?q=obamacare+repeal.html’
+
+     0K .......... .                                          100% 4.19M=0.003s
+
+2017-01-24 05:34:13 (4.19 MB/s) - ‘represent/bills/search?q=obamacare+repeal.html’ saved [11698/11698]
+
+FINISHED --2017-01-24 05:34:13--
+Total wall clock time: 3.9s
+Downloaded: 9 files, 607K in 0.3s (1.92 MB/s)
+Converting links in represent/expenditures.html... 12-2
+Converting links in represent/members/search?q=hakeem%20jeffries.html... 13-16
+Converting links in represent/bills/search?q=Planned+Parenthood.html... 12-12
+Converting links in represent/bills/search?q=obamacare+repeal.html... 12-12
+Converting links in represent/members/115/house.html... 14-2186
+Converting links in represent.1.html... 13-40
+Converting links in represent/bills/search?q=trade.html... 12-13
+Converting links in represent/members/115/senate.html... 13-518
+Converted links in 8 files in 0.1 seconds.
