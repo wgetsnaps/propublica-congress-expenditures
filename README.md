@@ -6,7 +6,7 @@ This is a single page with links to a bunch of large CSV files. This is a nice e
 
 Mirror page:
 
-https://wgetsnaps.github.io/propublica-congress-expenditures
+https://wgetsnaps.github.io/propublica-congress-expenditures/represent/expenditures.html
 
 
 Original page:
