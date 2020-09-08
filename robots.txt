@@ -1,10 +1,20 @@
+Sitemap: https://projects.propublica.org/sitemaps/projects-sitemaps/coronavirus-bailouts/siteindex.xml
+Sitemap: https://projects.propublica.org/sitemaps/projects-sitemaps/vital-signs/siteindex.xml
+Sitemap: https://projects.propublica.org/sitemaps/projects-sitemaps/nypd-ccrb/siteindex.xml
+
 User-Agent: *
-Crawl-Delay: 4
+Crawl-Delay: 1
 Disallow: /checkup/providers/search*
 Disallow: /nursing-homes/findings/search*
 Disallow: /docdollars/search*
+Disallow: /docdollars/query*
 Disallow: /treatment/doctors/search*
 Disallow: /nonprofits/search*
+Disallow: /nonprofits/name_search*
+Disallow: /nonprofits/full_text_search*
+Disallow: /nonprofits/redirect_to_990*
+Disallow: /nonprofits/display_990*
+Disallow: /nonprofits/download-filing*
 Disallow: /itemizer/filing*
 Disallow: /electionbot/search*
 
@@ -15,3 +25,6 @@ Disallow: /
 User-Agent: seokicks
 Disallow: /
 
+# bot seems to execute the JS on this vital-signs poorly (triggering analytics)
+User-Agent: IstellaBot
+Disallow: /vital-signs/*
